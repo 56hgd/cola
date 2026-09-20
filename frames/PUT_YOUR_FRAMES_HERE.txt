@@ -1,0 +1,18 @@
+Drop your 300 ezgif-exported frames directly into this folder, named:
+
+  ezgif-frame-001.png
+  ezgif-frame-002.png
+  ezgif-frame-003.png
+  ...
+  ezgif-frame-300.png
+
+That matches the defaults in assets/js/config.js (prefix
+"ezgif-frame-", 3-digit padding, .png extension).
+
+IMPORTANT: if you exported JPG instead of PNG from ezgif, open
+assets/js/config.js and change extension: '.png' to extension: '.jpg'
+to match — a mismatched extension is the #1 reason the loading bar
+gets stuck at 0%.
+
+Delete this file once your frames are in place (it won't break
+anything if you leave it, it's just not used by the site).
